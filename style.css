@@ -56,3 +56,33 @@ a:hover::before{
         padding: 10px 0;
     }
 }
+
+
+/* sidebar */
+.sidebar{
+    margin-top: 60px;
+    height: 300px;
+    width: 150px;
+    padding: 20px 10px;
+    justify-content: center;
+    text-align: center;
+    background-color: #131417;
+}
+.sidebar .sidebar-items{
+    padding: 0px;
+    list-style: none;
+}
+.sidebar .sidebar-items li{
+    display: block;
+    margin-bottom: 30px;
+}
+.sidebar .sidebar-items li a{
+    text-decoration: none;
+    color:#979797;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+.sidebar .sidebar-items li a:hover{
+    color: white;
+}
